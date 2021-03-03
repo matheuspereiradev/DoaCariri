@@ -1,0 +1,38 @@
+{
+  "name": "doacariri",
+  "version": "1.0.0",
+  "description": "sistema de doações do cariri desenvolvido para trabalho da pos graduação em engenharia de software da unileão",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuspereiradev/DoaCariri.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript",
+    "doacao",
+    "pos",
+    "graducao",
+    "engenharia",
+    "software"
+  ],
+  "author": "matheuspereiradev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheuspereiradev/DoaCariri/issues"
+  },
+  "homepage": "https://github.com/matheuspereiradev/DoaCariri#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
